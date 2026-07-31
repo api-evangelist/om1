@@ -1,7 +1,16 @@
 aid: om1
 name: Om1
-description: Om1 is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OM1 is an AI-powered healthcare analytics and real-world data company that
+  generates real-world evidence from clinical, EMR, and claims data. Its PhenOM
+  foundation model is trained on billions of patient-years to identify patient
+  phenotypes, accelerate diagnosis, and predict future medical events, risks,
+  and responses to treatment. OM1 delivers clinical registries, automated
+  observational studies, patient-finding and outcomes-prediction solutions, and
+  curated real-world datasets covering hundreds of millions of patients to life
+  sciences, biopharma, payer, and provider organizations. OM1 does not currently
+  publish a public developer API, developer portal, or machine-readable API
+  documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/om1/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,55 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Real-World Data
+- Real-World Evidence
+- Artificial Intelligence
+- Machine Learning
+- Analytics
+- Life Sciences
+- Clinical Data
+- Data
+image: https://om1.com/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/om1-domain-security.yml
+- type: Website
+  url: https://om1.com
+- type: Blog
+  url: https://om1.com/resources/blogs/
+- type: PrivacyPolicy
+  url: https://om1.com/privacy/
+- type: TermsOfService
+  url: https://om1.com/terms-and-conditions/
+- type: Support
+  url: https://om1.com/contact-us/
+- type: SignUp
+  url: https://om1.com/request-a-demo/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
